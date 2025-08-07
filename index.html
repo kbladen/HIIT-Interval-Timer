@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIIT Interval Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HIIT Interval Timer</h1>
+        <p id="timer">00:30</p>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="resetTimer()">Reset</button>
+        <select id="preset">
+            <option value="30-15">30s Work / 15s Rest</option>
+            <option value="40-20">40s Work / 20s Rest</option>
+            <option value="60-30">60s Work / 30s Rest</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
